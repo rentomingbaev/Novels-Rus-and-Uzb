@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Fanfic Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Markdown parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <h1>📚 Fanfic Hub</h1>
+
+  <!-- Переключение языка -->
+  <div>
+    <button onclick="loadStories('ru')">Русский</button>
+    <button onclick="loadStories('uz')">O'zbekcha</button>
+  </div>
+
+  <!-- Список историй -->
+  <div id="stories"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
