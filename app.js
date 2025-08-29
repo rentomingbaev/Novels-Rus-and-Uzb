@@ -1,6 +1,6 @@
 // 🔹 Укажи свои данные
-const repoOwner = "YOUR_GITHUB_USERNAME"; // ← замени на свой GitHub логин
-const repoName = "fanfic-site";           // ← название репозитория
+const repoOwner = "rentomingbaev"; // ← замени на свой GitHub логин
+const repoName = "Novels Rus and Uzb";           // ← название репозитория
 
 async function loadStories(lang = "ru") {
   const container = document.getElementById("stories");
